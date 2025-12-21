@@ -1,4 +1,4 @@
-/***2. Derleyiciler (Compilers)**
+/* Derleyiciler (Compilers)**
 **Türkçe:** Programlama dillerinin derleyicileri, kod yapisini temsil etmek için **Abstract Syntax Tree (AST)** kullanir.
 Örnek: 'a = b + c * 2' ifadesi için AST:
        =
