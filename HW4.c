@@ -1,3 +1,14 @@
+/*
+Week 4 homework
+
+How to add an element end of double linked list?
+
+How you can delete all the elements of a linked list? (Write it as recursive)
+
+How you can add an element between elements at double linked list?
+
+Figure out the difference between circular linked list and linked list. Write it and check the difference with sorting algorithms. */
+
 #include <stdlib.h>
 #include <stdio.h>
 

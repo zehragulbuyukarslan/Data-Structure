@@ -1,3 +1,8 @@
+/*
+3. Week homework
+We will do some operations  on linked list such as traversal, complexity, creating a list, inserting elements (front, inside, end), deletion operations.
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 
