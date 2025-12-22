@@ -37,7 +37,7 @@ void postorder(Node* root) {         // Left, Right, Root
     printf("%d ", root->data);
 }
 
-// Basit level-order için kuyruk:
+// Basit level-order iÃ§in kuyruk:
 typedef struct {
     Node* arr[100];
     int front, rear;
@@ -61,7 +61,7 @@ void levelorder(Node* root) {
 }
 
 int main() {
-    // Resimdeki aðacý kur:
+    // Resimdeki aÃ°acÃ½ kur:
     Node* root = newNode(1);
     root->left = newNode(2);
     root->right = newNode(3);
