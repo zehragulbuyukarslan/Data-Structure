@@ -54,7 +54,7 @@ void infixToPostfix(char infix[], char postfix[])
 		{
 			postfix[j++] = ch;
 		}
-		// parantez açma ise 
+		// parantez aÃ§ma ise 
 		else if (ch == '(')
 		{
 			push(ch);
