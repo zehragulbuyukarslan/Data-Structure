@@ -1,6 +1,6 @@
 /* Derleyiciler (Compilers)**
-**Türkçe:** Programlama dillerinin derleyicileri, kod yapisini temsil etmek için **Abstract Syntax Tree (AST)** kullanir.
-Örnek: 'a = b + c * 2' ifadesi için AST:
+**TÃ¼rkÃ§e:** Programlama dillerinin derleyicileri, kod yapisini temsil etmek iÃ§in **Abstract Syntax Tree (AST)** kullanir.
+Ã–rnek: 'a = b + c * 2' ifadesi iÃ§in AST:
        =
       / \
      a   +
@@ -22,9 +22,9 @@ typedef enum {
 
 typedef struct ASTNode {
     NodeType type;
-    char op;                 // NODE_OP için: '+', '*', '=' gibi
-    char id[32];             // NODE_ID için: "a", "b", "c"
-    int num;                 // NODE_NUM için: 2 gibi
+    char op;                 // NODE_OP iÃ§in: '+', '*', '=' gibi
+    char id[32];             // NODE_ID iÃ§in: "a", "b", "c"
+    int num;                 // NODE_NUM iÃ§in: 2 gibi
     struct ASTNode *left;
     struct ASTNode *right;
 } ASTNode;
@@ -91,7 +91,7 @@ void postorder(ASTNode* root) { // left-right-root
     printNode(root); printf(" ");
 }
 
-// Aðacý yan çiz (sað çocuk üstte görünür)
+// AÃ°acÃ½ yan Ã§iz (saÃ° Ã§ocuk Ã¼stte gÃ¶rÃ¼nÃ¼r)
 void printTree(ASTNode* root, int depth) {
     if (!root) return;
     printTree(root->right, depth + 1);
@@ -110,7 +110,7 @@ void freeTree(ASTNode* root) {
 
 int main(void) {
     // a = b + c * 2
-    // Önce: c * 2
+    // Ã–nce: c * 2
     ASTNode* mult = newOp('*', newId("c"), newNum(2));
 
     // Sonra: b + (c*2)
