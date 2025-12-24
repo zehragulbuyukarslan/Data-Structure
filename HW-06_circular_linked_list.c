@@ -1,6 +1,6 @@
-/* Derleyiciler (Compilers)**
-**Türkçe:** Programlama dillerinin derleyicileri, kod yapisini temsil etmek için **Abstract Syntax Tree (AST)** kullanir.
-Örnek: 'a = b + c * 2' ifadesi için AST:
+/* Derleyiciler (Compilers)
+ Programlama dillerinin derleyicileri, kod yapisini temsil etmek icin **Abstract Syntax Tree (AST)** kullanir.
+Ornek: 'a = b + c * 2' ifadesi icin AST:
        =
       / \
      a   +
@@ -22,9 +22,9 @@ typedef enum {
 
 typedef struct ASTNode {
     NodeType type;
-    char op;                 // NODE_OP için: '+', '*', '=' gibi
-    char id[32];             // NODE_ID için: "a", "b", "c"
-    int num;                 // NODE_NUM için: 2 gibi
+    char op;                 // NODE_OP icin: '+', '*', '=' gibi
+    char id[32];             // NODE_ID iciin: "a", "b", "c"
+    int num;                 // NODE_NUM icin: 2 gibi
     struct ASTNode *left;
     struct ASTNode *right;
 } ASTNode;
