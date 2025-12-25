@@ -1,7 +1,7 @@
 /* 
 Week 11 Homework
 [TR]
-Graph'ta Cluster nasýl yapýlýr, nasýl ayrýlýyor?
+Graph'ta Cluster nasil yapilir, nasil ayriliyor?
 [EN]
 How we do cluster in graph, how seperate?
 */
